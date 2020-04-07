@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.main-header {
+  background-color: #272343;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 10% 0;
+  width: 100%;
+}
+
+[class^=header] {
+  color: white;
+  height: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+.header-title,
+.header-secondary {
+  font-size: 24px;
+  height: 30%;
+  padding: 2%;
+}
+
+.header-title {
+  align-items: flex-end;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.header-links-list {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.header-links-item {
+  width: 15%;
+  height: auto;
+}
+
+.header-links-item:nth-child(2) {
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+}
+
+.header-link {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+[class^=showcase] {
+  height: 100%;
+}
+
+.showcase-1 {
+  background-color: #FFF;
+}
+
+.showcase-2 {
+  background-color: #E3F6F5;
+}
+
+.showcase-3 {
+  background-color: #BAE8E8;
+}
+
+/*# sourceMappingURL=style.css.map */
