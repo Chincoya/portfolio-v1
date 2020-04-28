@@ -1,5 +1,5 @@
 *,
-*::after,
+*::after, 
 *::before {
   padding: 0;
   margin: 0;
@@ -20,7 +20,7 @@ body {
   width: 100%;
 }
 
-[class^=header] {
+[class^="header"] {
   color: white;
   height: 50%;
   text-align: center;
@@ -40,6 +40,13 @@ body {
   font-size: 30px;
   justify-content: center;
 }
+
+.header-links-case {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 
 .header-links-list {
   align-items: flex-end;
@@ -64,8 +71,9 @@ body {
   text-decoration: none;
 }
 
-[class^=showcase] {
+[class^="showcase"] {
   height: 100%;
+  display: flex;
 }
 
 .showcase-1 {
@@ -79,5 +87,3 @@ body {
 .showcase-3 {
   background-color: #BAE8E8;
 }
-
-/*# sourceMappingURL=style.css.map */
